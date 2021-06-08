@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+	.mainHeader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	.mainHeader nav{
+	width: 650px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+}
+.mainHeader .active{
+box-sizing: border;
+border: 4px solid #000;
+padding: 15px;
+color: #000;
+padding: 10px 45px;
+text-align: center;
+font-size: 14px;
+color: #fff;
+border: none;
+background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+border-radius: 10px;}
+.mainHeader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+.mainHeader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+}
+</style>
+<body>
+<div class="header">
+	<div class="mainHeader">
+  		<nav>
+  			<a href="index.html">Home</a>
+			<a href="viewallcustomers.html" class="active">View All Customers</a>
+			<a href="moneytrans.html">Money Transaction</a>
+                        <a href="help.html">help</a>
+		</nav>
+	</div>
+
+	<div class="container">
+  <h2 class="py-3">Customers List</h2>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Account Number</th>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Balance(in $)</th>
+      </tr>
+    </thead>
+    <tbody>
+	<tr>
+	<td>1</td>
+		<td>Vinita</td>
+		<td>vinita@gmail.com</td>
+        <td>500</td>
+      </tr>
+	  <tr>
+        <td>2</td>
+		<td>Dhruvi</td>
+		<td>dhruvi@gmail.com</td>
+        <td>400</td>
+      </tr>
+	  <tr>
+        <td>3</td>
+		<td>Hemani</td>
+		<td>hemani@gmail.com</td>
+        <td>674</td>
+      </tr>
+	 <tr>
+        <td>4</td>
+		<td>Sonal</td>
+		<td>sonal@gmail.com</td>
+        <td>400</td>
+      </tr>
+	  <tr>
+        <td>5</td>
+		<td>Surabhi</td>
+		<td>surabhi@gmail.com</td>
+        <td>530</td>
+      </tr>
+	  <tr>
+        <td>6</td>
+		<td>Sutapha</td>
+		<td>sutapha@gmail.com</td>
+        <td>100</td>
+      </tr>
+	  <tr>
+        <td>7</td>
+		<td>Abhishek</td>
+		<td>abhishek@gmail.com</td>
+        <td>460</td>
+      </tr>
+	  <tr>
+        <td>8</td>
+		<td>Harsh</td>
+		<td>harsh@gmail.com</td>
+        <td>356</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</body>
+</html>
